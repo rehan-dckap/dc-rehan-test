@@ -1,0 +1,26 @@
+{
+    "name": "rehan/form",
+    "description": "This is a form generator Package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "rehan",
+            "email": "usamarehank@dckap.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Rehan\\FormGenerator\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rehan\\FormGenerator\\FormGeneratorServiceProvider"
+            ]
+        }
+    }
+}
